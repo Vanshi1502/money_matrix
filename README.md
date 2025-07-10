@@ -35,24 +35,30 @@ http://localhost:3000 .
 
 ## Folder Structure
 money-matrix/
-├── public/
+├── public/                      # Static files served directly
 │   ├── favicon.ico
 │   ├── index.html
 │   ├── logo192.png
 │   ├── logo512.png
 │   └── manifest.json
-├── src/
-│   ├── components/
+│
+├── src/                         # Application source code
+│   ├── components/              # Reusable React components
 │   │   ├── AddTransaction.js
 │   │   ├── Login.js
 │   │   ├── OverviewComponent.js
 │   │   ├── Tracker.js
 │   │   ├── TransactionsContainer.js
 │   │   └── TransactionItem.js
-│   ├── App.js
-│   └── globalStyles.js
-├── package.json
-└── README.md
+│   │
+│   ├── App.js                   # Main app component
+│   ├── globalStyles.js          # Global styles using styled-components
+│   └── index.js                 # React entry point
+│
+├── .gitignore                   # Git ignore rules
+├── package.json                 # Project dependencies and scripts
+├── README.md                    # Project documentation
+└── yarn.lock / package-lock.json # Dependency lock file
 
 ### Available Scripts
 -npm start : App launch in developer Mode
