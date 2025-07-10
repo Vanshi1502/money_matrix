@@ -1,4 +1,5 @@
-Money Matrix — Expense Tracker
+### Money Matrix — *Expense Tracker*
+
 A modern, desktop-friendly expense tracker app built with React and styled-components.
 
 ## Overview
@@ -21,8 +22,10 @@ Money Matrix helps you manage your finances with a persistent, intuitive UI.
 6.Login page for session management (demo logic)
 
 ## Getting started
-Prerequisites
+*Prerequisites*
+
 -Node.js(V14 or above)
+
 -npm:comes with Node.js
 
 ## INSTALLATION
@@ -35,7 +38,7 @@ npm install
 
 npm start
 
-4*.App will be available at *
+4.App will be available at 
 http://localhost:3000 .
 
 ## Folder Structure
