@@ -76,6 +76,8 @@ money-matrix/
 -npm test : Runs the test suite
 
 -npm run eject(one-way operation) :full control over React app's Build tool
+![image](https://github.com/user-attachments/assets/9f67f099-d80b-4f01-8f43-2f8f067bab2a)
+
 
 
 
