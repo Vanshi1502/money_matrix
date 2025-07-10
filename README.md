@@ -4,7 +4,8 @@ A modern, desktop-friendly expense tracker app built with React and styled-compo
 ## Overview
 -------
 Money Matrix helps you manage your finances with a persistent, intuitive UI.
-Add, view, search, and delete your income and expenses—all data is securely stored in your browser’s local storage for privacy and persistence.
+
+*Add, view, search, and delete* your income and expenses—all data is securely stored in your browser’s local storage for privacy and persistence.
  
 ## Features
 1.Add, edit, and delete transactions (income or expense)
@@ -27,24 +28,28 @@ Prerequisites
 ## INSTALLATION
 1. *Clone the repository:*
    
-2.Install dependencies:
-
+2.*Install dependencies:*
 npm install
-3.Start the development server:
+
+3.*Start the development server:*
+
 npm start
 
-4.App will be available at 
+4*.App will be available at *
 http://localhost:3000 .
 
 ## Folder Structure
 money-matrix/
+
   public/
+  
     favicon.ico
     index.html
     logo192.png
     logo512.png
     manifest.json
   src/
+  
     components/
       AddTransaction.js
       Login.js
@@ -56,6 +61,7 @@ money-matrix/
     globalStyles.js
     ...
   package.json
+  
   README.md
 
 
@@ -69,4 +75,5 @@ money-matrix/
 -npm run eject(one-way operation) :full control over React app's Build tool
 
 >All expense and income data is stored in your browser’s local storage. It persists across reloads and browser restarts, but is specific to your device and browser.
+
 >The UI is responsive and works on modern browsers, but is optimized for desktop use.
