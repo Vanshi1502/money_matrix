@@ -1,4 +1,4 @@
-### Money Matrix — *Expense Tracker*
+### Money Matrix — *Expense Tracker* 
 
 A modern, desktop-friendly expense tracker app built with React and styled-components.
 
@@ -76,6 +76,10 @@ money-matrix/
 -npm test : Runs the test suite
 
 -npm run eject(one-way operation) :full control over React app's Build tool
+
+### Money Matrix
+![Login page]("C:\Users\DELL\Pictures\Screenshots\Screenshot 2025-07-10 135756.png")
+
 
 >All expense and income data is stored in your browser’s local storage. It persists across reloads and browser restarts, but is specific to your device and browser.
 
