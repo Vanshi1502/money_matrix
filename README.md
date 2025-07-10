@@ -25,45 +25,47 @@ Prerequisites
 -npm:comes with Node.js
 
 ## INSTALLATION
-1.Clone the repository:
+1. *Clone the repository:*
+   
 2.Install dependencies:
+
 npm install
-2.Start the development server:
+3.Start the development server:
 npm start
-3.App will be available at 
+
+4.App will be available at 
 http://localhost:3000 .
 
 ## Folder Structure
 money-matrix/
-├── public/                      # Static files served directly
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   └── manifest.json
-│
-├── src/                         # Application source code
-│   ├── components/              # Reusable React components
-│   │   ├── AddTransaction.js
-│   │   ├── Login.js
-│   │   ├── OverviewComponent.js
-│   │   ├── Tracker.js
-│   │   ├── TransactionsContainer.js
-│   │   └── TransactionItem.js
-│   │
-│   ├── App.js                   # Main app component
-│   ├── globalStyles.js          # Global styles using styled-components
-│   └── index.js                 # React entry point
-│
-├── .gitignore                   # Git ignore rules
-├── package.json                 # Project dependencies and scripts
-├── README.md                    # Project documentation
-└── yarn.lock / package-lock.json # Dependency lock file
+  public/
+    favicon.ico
+    index.html
+    logo192.png
+    logo512.png
+    manifest.json
+  src/
+    components/
+      AddTransaction.js
+      Login.js
+      OverviewComponent.js
+      Tracker.js
+      TransactionsContainer.js
+      TransactionItem.js
+    App.js
+    globalStyles.js
+    ...
+  package.json
+  README.md
+
 
 ### Available Scripts
 -npm start : App launch in developer Mode
+
 -npm run build : Builds the app for production
+
 -npm test : Runs the test suite
+
 -npm run eject(one-way operation) :full control over React app's Build tool
 
 >All expense and income data is stored in your browser’s local storage. It persists across reloads and browser restarts, but is specific to your device and browser.
