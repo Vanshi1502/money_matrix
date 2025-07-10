@@ -29,13 +29,13 @@ Money Matrix helps you manage your finances with a persistent, intuitive UI.
 -npm:comes with Node.js
 
 ## INSTALLATION
-1. *Clone the repository:*
+
+1.*Clone the repository:*
    
 2.*Install dependencies:*
 npm install
 
 3.*Start the development server:*
-
 npm start
 
 4.App will be available at 
